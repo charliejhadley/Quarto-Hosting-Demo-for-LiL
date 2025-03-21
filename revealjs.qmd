@@ -1,13 +1,14 @@
 ---
-title: "Example Simple Report"
+title: "Example Presentation"
 format: 
-    html:
+    revealjs:
         embed-resources: true
 ---
 
 It's really simple to create websites with GitHub Pages that are created with Quarto and Python.
 
 ```{python}
+#| echo: true
 # Example of Python code
 import random
 random_big = random.randint(1, 999) * 1E6
@@ -20,7 +21,9 @@ For instance, the site you're viewing here can be accessed as follows
 
 - Link to repo: <https://github.com/charliejhadley/Quarto-Hosting-Demo-for-LiL>
 - Link to "homepage" of GitHub Pages: <https://charliejhadley.github.io/Quarto-Hosting-Demo-for-LiL/>
+- Link to revealjs presentation: <
 
+##
 
 ```{python}
 #| warning: false

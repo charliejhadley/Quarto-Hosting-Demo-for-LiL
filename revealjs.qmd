@@ -22,6 +22,7 @@ For instance, the site you're viewing here can be accessed as follows
 - Link to repo: <https://github.com/charliejhadley/Quarto-Hosting-Demo-for-LiL>
 - Link to "homepage" of GitHub Pages: <https://charliejhadley.github.io/Quarto-Hosting-Demo-for-LiL/>
 - Link to revealjs presentation: <https://charliejhadley.github.io/Quarto-Hosting-Demo-for-LiL/revealjs#/title-slide>
+- Link to dashboard: <https://charliejhadley.github.io/Quarto-Hosting-Demo-for-LiL/dashboard>
 
 ##
 

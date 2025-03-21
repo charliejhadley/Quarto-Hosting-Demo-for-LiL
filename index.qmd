@@ -1,0 +1,37 @@
+---
+title: "Example Simple Report"
+format: html
+---
+
+It's really simple to create websites with GitHub Pages that are created with Quarto and Python.
+
+```{python}
+# Example of Python code
+import random
+random_big = random.randint(1, 999) * 1E6
+
+random_small = random.randint(1, 500)
+random_big + random_small
+```
+
+For instance, the site you're viewing here can be accessed as follows
+
+- Link to repo: <https://github.com/charliejhadley/Quarto-Hosting-Demo-for-LiL>
+- Link to 
+
+```{python}
+#| warning: false
+# Example of Python charts
+from palmerpenguins import load_penguins
+import plotnine as pn
+penguins_df = load_penguins()
+(
+    pn.ggplot(penguins_df,
+              pn.aes(
+                  x="bill_length_mm",
+                  y="flipper_length_mm",
+                  color="factor(species)"))
+    + pn.geom_point()
+    + pn.theme_gray(base_size=16)
+)
+```
